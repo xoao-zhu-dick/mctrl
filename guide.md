@@ -6,6 +6,7 @@
 > ### 2. mctrl指令
 > #### 2.1 mctrl指令中的名称
 > #### 2.2 mctrl指令的使用方法
+> #### 2.3 DataMap 扩展
 
 ### 1. mctrl是什么
 全名 `ModelCtrl`，可用来控制实体
