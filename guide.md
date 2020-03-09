@@ -46,7 +46,7 @@ FIRE | `fire`
 
 #### 2.3 DataMap 扩展
 
-每个实体都有 DataMap 数据，我们可以调整 DataMap 数据以达到控制组件的功能
+每个实体都有 DataMap 数据，我们可以调整 DataMap 数据以达到控制组件
 
 这里以列车为例
 
