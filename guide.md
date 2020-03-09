@@ -8,11 +8,11 @@
 > #### 2.2 mctrl指令的使用方法
 
 ### 1. mctrl是什么
-ModelCtrl
+全名 `ModelCtrl`，可用来控制实体
 
 ### 2. mctrl指令
 
-在游戏内的指令为 `/mctrl`
+`/mctrl`
 
 #### 2.1 mctrl指令中的名称
 名称 | 游戏内名称
@@ -41,3 +41,23 @@ FIRE | `fire`
 `addYaw` | `mctrl <vehicle or artillery> addYaw <value>` | 调整载具或大炮 | 否
 `addPitch` | `mctrl <artillery> addPitch <value>` | 调整载具或大炮 | 否
 `fire` | `mctrl <artillery> fire <number of bullet>` | 大炮发♂射 | 否
+
+举例：比如想设置一辆名为 `test` 列车的档位为 3，那么输入 `/mctrl test notch 3` 即可
+
+#### 2.3 DataMap 扩展
+
+每个实体都有 DataMap 数据，我们可以调整 DataMap 数据以达到控制组件的功能
+
+这里以列车为例
+DataMap 数据名称 | 中文名 | 类型 | 数值 | 备注
+:-- | :-- | :-- | :-- | :--
+Role | 列车位置 | Int | 0前 1中 2后 | 无
+Destination | 终点站 | Int | 第一个是0，以此类推 | 无
+Announcement | 车内广播 | Int | 第一个是0，以此类推 | 只能调整，不能播放
+Light | 车灯 | Int | 0关 1开前灯 2开前灯尾灯 | 无
+Pantograph | 受电弓 | Int | 0降 1升 | 无
+Notch | 档位 | Int | -8 ~ 5 | 输错数值崩溃
+InteriorLight | 车内灯 | Int | 0关 1开 2彩灯 | 无
+Direction | 方向 | Int | 0正 1反 | 只能调整座位方向(bug)，输错数值崩溃
+ChunkLoader | 区块加载器 | Int | 0 ~ 8 | 无
+Door | 车门 | Int | 0全关 1开一侧 2开一侧 3全开 | 无
