@@ -34,7 +34,7 @@ FIRE | `fire`
 游戏内名称 | 游戏内指令 | 作用 | 输错数值是否崩溃
 :-- | :-- | :-- | :--
 `notch` | `mctrl <train> notch <-8 ~ 5>` | 调整列车档位 | **是**
-`dir` | `mctrl <train> dir <0 or 1>` | 调整列车行驶方向 `0` 正 `1` 反 | **是**
+`dir` | `mctrl <train> dir <0 or 1>` | 调整列车行驶方向 `0` 正，`1` 反 | **是**
 `dm:<data name>` | `mctrl <?> dm:<data name> <(type)value>` | 调整 DataMap | 否
 `state:<data name>` | `mctrl <vehicle> state:<data name> <value>` | 暂不清楚 | 暂不清楚
 `move` | `mctrl <vehicle> move <distance>` | 移动载具 | 暂不清楚
@@ -52,13 +52,13 @@ FIRE | `fire`
 
 DataMap 数据名称 | 中文名 | 类型 | 数值 | 备注
 :-- | :-- | :-- | :-- | :--
-`Role` | 列车位置 | `Int` | `0` 前 `1` 中 `2` 后 | 无
+`Role` | 列车位置 | `Int` | `0` 前，`1` 中，`2` 后 | 无
 `Destination` | 终点站 | `Int` | 第一个是 `0`，以此类推 | 无
 `Announcement` | 车内广播 | `Int` | 第一个是 `0`，以此类推 | 只能调整，不能播放
-`Light` | 车灯 | `Int` | `0` 关 `1` 开前灯 `2` 开前灯尾灯 | 无
-`Pantograph` | 受电弓 | `Int` | `0` 降 `1` 升 | 无
+`Light` | 车灯 | `Int` | `0` 关，`1` 开前灯，`2` 开前灯尾灯 | 无
+`Pantograph` | 受电弓 | `Int` | `0` 降，`1` 升 | 无
 `Notch` | 档位 | `Int` | `-8 ~ 5` | 输错数值崩溃
-`InteriorLight` | 车内灯 | `Int` | `0` 关 `1` 开 `2` 彩灯 | 无
-`Direction` | 方向 | `Int` | `0` 正 `1` 反 | 只能调整座位方向 (bug)，输错数值崩溃
+`InteriorLight` | 车内灯 | `Int` | `0` 关，`1` 开，`2` 彩灯 | 无
+`Direction` | 方向 | `Int` | `0` 正，`1` 反 | 只能调整座位方向 (bug)，输错数值崩溃
 `ChunkLoader` | 区块加载器 | `Int` | `0 ~ 8` | 无
-`Door` | 车门 | `Int` | `0` 全关 `1` 开一侧 `2` 开一侧 `3` 全开 | 无
+`Door` | 车门 | `Int` | `0` 全关，`1` 开一侧，`2` 开一侧，`3` 全开 | 无
