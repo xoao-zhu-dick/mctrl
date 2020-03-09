@@ -34,7 +34,7 @@ FIRE | `fire`
 游戏内名称 | 游戏内指令 | 作用 | 输错数值是否崩溃
 :-- | :-- | :-- | :--
 `notch` | `mctrl <train> notch <-8 ~ 5>` | 调整列车档位 | **是**
-`dir` | `mctrl <train> dir <0 or 1>` | 调整列车行驶方向 `0` 正，`1` 反 | **是**
+`dir` | `mctrl <train> dir <0 or 1>` | 调整列车行驶方向。`0` 正，`1` 反 | **是**
 `dm:<data name>` | `mctrl <?> dm:<data name> <(type)value>` | 调整 DataMap | 否
 `state:<data name>` | `mctrl <vehicle> state:<data name> <value>` | 暂不清楚 | 暂不清楚
 `move` | `mctrl <vehicle> move <distance>` | 移动载具 | 暂不清楚
@@ -46,11 +46,11 @@ FIRE | `fire`
 
 #### 2.3 DataMap 扩展
 
-每个实体都有 DataMap 数据，我们可以调整 DataMap 数据来控制组件
+每个实体都有 DataMap 数据，可以调整 DataMap 数据来控制组件
 
 这里以列车为例
 
-DataMap 数据名称 | 中文名 | 类型 | 数值 | 备注
+DataMap 数据名称 | 中文名称 | 类型 | 数值 | 备注
 :-- | :-- | :-- | :-- | :--
 `Role` | 列车位置 | `Int` | `0` 前，`1` 中，`2` 后 | 无
 `Destination` | 终点站 | `Int` | 第一个是 `0`，以此类推 | 无
