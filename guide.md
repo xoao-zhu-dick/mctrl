@@ -35,12 +35,11 @@
 
 #### 2.2 DataMap 扩展
 
-每个实体都有 DataMap 数据，可以调整 DataMap 数据来控制组件
+1）每个实体都有 DataMap 数据，可以调整 DataMap 数据来控制组件
 
 - DataMap 数据名称大小写需保持一致
 
-
-这里以列车为例
+2）这里以列车为例
 
 - 如果要调整 `Notch` 和 `Direction` 这两项，可以用 `mctrl <train> <notch or dir> <value>` 替代
 
