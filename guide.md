@@ -49,7 +49,11 @@ FIRE | `fire`
 
 每个实体都有 DataMap 数据，可以调整 DataMap 数据来控制组件
 
+- DataMap 数据名称大小写需保持一致
+
 这里以列车为例
+
+- `Notch` 和 `Direction` 可以用 `mctrl <train> <notch or dir> <value>` 替代
 
 DataMap 数据名称 | 中文名称 | 类型 | 数值 | 备注
 :-- | :-- | :-- | :-- | :--
@@ -65,7 +69,3 @@ DataMap 数据名称 | 中文名称 | 类型 | 数值 | 备注
 `Door` | 车门 | `Int` | `0` 全关，`1` 开一侧，`2` 开一侧，`3` 全开 | 无
 
 举例：比如想设置一辆名为 `test2` 列车的车门为全开，那么输入 `mctrl test2 dm:Door (Int)3`即可
-
-注意事项
-- DataMap 数据名称大小写需保持一致
-- `Notch` 和 `Direction` 可以用 `mctrl <train> <notch or dir> <value>` 替代
