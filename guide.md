@@ -43,7 +43,7 @@ FIRE | `fire`
 `addPitch` | `mctrl <artillery> addPitch <value>` | 调整载具或大炮 | 否
 `fire` | `mctrl <artillery> fire <number of bullet>` | 大炮发♂射 | 否
 
-举例：比如想设置一辆名为 `test` 列车的档位为 3，那么输入 `/mctrl test notch 3` 即可
+举例：比如想设置一辆名为 `test` 列车的档位为 `3`，那么输入 `mctrl test notch 3` 即可
 
 #### 2.3 DataMap 扩展
 
@@ -63,3 +63,5 @@ DataMap 数据名称 | 中文名称 | 类型 | 数值 | 备注
 `Direction` | 方向 | `Int` | `0` 正，`1` 反 | 只能调整座位方向 (bug)，输错数值崩溃
 `ChunkLoader` | 区块加载器 | `Int` | `0 ~ 8` | 无
 `Door` | 车门 | `Int` | `0` 全关，`1` 开一侧，`2` 开一侧，`3` 全开 | 无
+
+举例：比如想设置一辆名为 `test2` 列车的车门为全开，那么输入 `mctrl test dm:Door (Int)3`即可
