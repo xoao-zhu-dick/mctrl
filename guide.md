@@ -3,7 +3,9 @@
 
 ## 目录
 > [1. mctrl是什么](#1-mctrl是什么)  
-
+> [2. mctrl指令](#2-mctrl指令)
+> [2.1 mctrl指令的使用方法](#21-mctrl指令的使用方法)
+> [2.2 DataMap 扩展](#22-datamap-扩展)
 
 ### 1. mctrl是什么
 全名 ModelCtrl，可用来控制实体
