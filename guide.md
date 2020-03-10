@@ -2,9 +2,9 @@
 > ~~ngt似乎搞了个很有用的指令~~
 
 ## 目录
-> [1. mctrl是什么](#1-mctrl-是什么)  
-> [2. mctrl指令](#2-mctrl-指令)  
-> [2.1 mctrl指令的使用方法](#21-mctrl-指令的使用方法)  
+> [1. mctrl 是什么](#1-mctrl-是什么)  
+> [2. mctrl 指令](#2-mctrl-指令)  
+> [2.1 mctrl 指令的使用方法](#21-mctrl-指令的使用方法)  
 > [2.2 DataMap 扩展](#22-datamap-扩展)
 
 ### 1. mctrl 是什么
@@ -17,10 +17,10 @@
 
 #### 2.1 mctrl 指令的使用方法
 
+- 指令有风险，谨慎操作
 - 注意 **输错数值是否崩溃**
-- 指令有风险，出事自己处理（跑
 
-名称 | 指令 | 作用 | 输错数值是否崩溃
+类别 | 指令 | 作用 | 输错数值是否崩溃
 :-- | :-- | :-- | :--
 `notch` | `mctrl <train> notch <-8 ~ 5>` | 调整列车档位 | **是**
 `dir` | `mctrl <train> dir <0 or 1>` | 调整列车行驶方向。`0` 正，`1` 反 | **是**
@@ -29,7 +29,7 @@
 `move` | `mctrl <vehicle> move <distance>` | 移动载具 | 暂不清楚
 `addYaw` | `mctrl <vehicle or artillery> addYaw <value>` | 调整载具或大炮 | 否
 `addPitch` | `mctrl <artillery> addPitch <value>` | 调整载具或大炮 | 否
-`fire` | `mctrl <artillery> fire <number of bullet>` | 大炮发♂射 | 否
+`fire` | `mctrl <artillery> fire <number of bullet>` | 大炮发♂射子弹 | 否
 
 举例：比如想设置一辆名为 `test` 列车的档位为 `3`，那么输入 `mctrl test notch 3` 即可
 
@@ -37,11 +37,11 @@
 
 每个实体都有 DataMap 数据，可以调整 DataMap 数据来控制组件
 
-- DataMap 数据名称大小写需保持一致
+- DataMap 数据名称大小写需保持一致  
 
 这里以列车为例
 
-- `Notch` 和 `Direction` 可以用 `mctrl <train> <notch or dir> <value>` 替代
+- 如果要调整 `Notch` 和 `Direction` 这两项，可以用 `mctrl <train> <notch or dir> <value>` 替代
 
 DataMap 数据名称 | 中文名称 | 类型 | 数值 | 备注
 :-- | :-- | :-- | :-- | :--
