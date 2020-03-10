@@ -6,7 +6,7 @@
 
 
 ### 1. mctrl是什么
-全名 `ModelCtrl`，可用来控制实体
+全名 ModelCtrl，可用来控制实体
 
 ### 2. mctrl指令
 
