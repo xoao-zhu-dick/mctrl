@@ -1,4 +1,4 @@
-# mctrl使用教程
+# mctrl 使用教程
 > ~~ngt似乎搞了个很有用的指令~~
 
 ## 目录
@@ -7,15 +7,15 @@
 > [2.1 mctrl指令的使用方法](#21-mctrl指令的使用方法)  
 > [2.2 DataMap 扩展](#22-datamap-扩展)
 
-### 1. mctrl是什么
+### 1. mctrl 是什么
 全名 ModelCtrl，可用来控制实体
 
-### 2. mctrl指令
+### 2. mctrl 指令
 
 `/mctrl <target> <category> <value>`  
 目标：`@a` 全部，`@n` 最近，`@r:00` 范围，或者是实体名 (默认 `no_name`)
 
-#### 2.1 mctrl指令的使用方法
+#### 2.1 mctrl 指令的使用方法
 
 - 注意 **输错数值是否崩溃**
 - 指令有风险，出事自己处理（跑
