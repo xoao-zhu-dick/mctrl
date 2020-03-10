@@ -3,10 +3,7 @@
 
 ## 目录
 > [1. mctrl是什么](#1-mctrl是什么)  
-> [2. mctrl指令](#2-mctrl指令)  
-> [2.1 mctrl指令中的名称](#21-mctrl指令中的名称)  
-> [2.2 mctrl指令的使用方法](#22-mctrl指令的使用方法)  
-> [2.3 DataMap 扩展](#23-datamap-扩展)
+
 
 ### 1. mctrl是什么
 全名 `ModelCtrl`，可用来控制实体
@@ -15,17 +12,6 @@
 
 `/mctrl`
 
-#### 2.1 mctrl指令中的名称
-名称 | 游戏内名称
-:-- | :--
-NOTCH | `notch`
-DIR | `dir`
-DATA_MAP | `dm:<data name>`
-VEHICLE_STATE | `state:<data name>`
-V_MOV_DIST | `move`
-V_ADD_YAW | `addYaw`
-V_ADD_PITCH | `addPitch`
-FIRE | `fire`
 
 #### 2.2 mctrl指令的使用方法
 
