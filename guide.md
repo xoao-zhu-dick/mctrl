@@ -23,7 +23,7 @@
 类别 | 指令 | 作用 | 输错数值是否崩溃
 :-- | :-- | :-- | :--
 `notch` | `mctrl <train> notch <-8 ~ 5>` | 调整列车档位 | **是**
-`dir` | `mctrl <train> dir <0 or 1>` | 调整列车行驶方向。`0` 正，`1` 反 | **是**
+`dir` | `mctrl <train> dir <0 or 1>` | 调整列车行驶方向 (`0` 正，`1` 反) | **是**
 `dm:<data name>` | `mctrl <?> dm:<data name> <(type)value>` | 调整 DataMap | 否
 `state:<data name>` | `mctrl <vehicle> state:<data name> <value>` | 暂不清楚 | 暂不清楚
 `move` | `mctrl <vehicle> move <distance>` | 移动载具 | 暂不清楚
@@ -57,3 +57,5 @@ DataMap 数据名称 | 中文名称 | 类型 | 数值 | 备注
 `Door` | 车门 | `Int` | `0` 全关，`1` 开一侧，`2` 开一侧，`3` 全开 | 无
 
 举例：比如想设置一辆名为 `test2` 列车的车门为全开，那么输入 `mctrl test2 dm:Door (Int)3`即可
+
+#### 2.3 自动驾驶的实现方法
