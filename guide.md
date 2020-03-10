@@ -2,10 +2,10 @@
 > ~~ngt似乎搞了个很有用的指令~~
 
 ## 目录
->[1. mctrl是什么](#1-mctrl是什么)
->[2. mctrl指令](#2-mctrl指令)
->>[2.1 mctrl指令中的名称](#21-mctrl指令中的名称)
->>[2.2 mctrl指令的使用方法](#22-mctrl指令的使用方法)
+>[1. mctrl是什么](#1-mctrl是什么)  
+>[2. mctrl指令](#2-mctrl指令)  
+>>[2.1 mctrl指令中的名称](#21-mctrl指令中的名称)  
+>>[2.2 mctrl指令的使用方法](#22-mctrl指令的使用方法)  
 >>[2.3 DataMap 扩展](#23-datamap-扩展)
 
 ### 1. mctrl是什么
