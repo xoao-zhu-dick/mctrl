@@ -24,7 +24,7 @@
 :-- | :-- | :-- | :--
 `notch` | `mctrl <train> notch <-8 ~ 5>` | 调整列车档位 | **是**
 `dir` | `mctrl <train> dir <0 or 1>` | 调整列车行驶方向 (`0` 正，`1` 反) | **是**
-`dm:<data name>` | `mctrl < > dm:<data name> <(type)value>` | 调整 DataMap | 否
+`dm:<data name>` | `mctrl <any> dm:<data name> <(type)value>` | 调整 DataMap | 否
 `state:<data name>` | `mctrl <vehicle> state:<data name> <value>` | 暂不清楚 | 暂不清楚
 `move` | `mctrl <vehicle> move <distance>` | 移动载具 | 暂不清楚
 `addYaw` | `mctrl <vehicle or artillery> addYaw <value>` | 调整载具或大炮 | 否
